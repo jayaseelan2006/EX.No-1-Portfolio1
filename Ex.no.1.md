@@ -1,5 +1,5 @@
 # Ex01 Portfolio
-## Date:
+## Date:04.03.25
 
 ## AIM
 To create a Portfolio using HTML and CSS.
@@ -48,9 +48,85 @@ Deploy the Portfolio.
 Upload to GitHub Pages for free hosting.
 
 ## PROGRAM
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <section>
+        <img src="photo1.jpg" alt="Profile Picture" class="profile-img">
+
+        <h2>JAYASEELAN U</h2>
+        <p>Hi, I'm a software developer passionate about web development and AI.</p>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <p>1. Software Developer</p>
+        <p>2. Cyberattack Simulator</p>
+        <p>3. Secure Chat App</p>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>Email: yourname@example.com</p>
+        <p>LinkedIn:<a>My Profile</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 </p>
+    </footer>
+
+</body>
+</html>
 
 
 ## OUTPUT
+![Screenshot 2025-04-28 220057](https://github.com/user-attachments/assets/35d7191d-29fe-400f-baec-c48151765878)
+
 
 
 ## RESULT
